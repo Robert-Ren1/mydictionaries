@@ -62,6 +62,8 @@ phonebook["Joe"] = '555-4444'
 
 print(phonebook)
 
+#the result is: {'Chris': '555−1111', 'Katie': '555−2222', 'Joanne': '555−3333'}
+#{'Chris': '555-0123', 'Katie': '555−2222', 'Joanne': '555−3333', 'Joe': '555-4444'}
 
 print()
 print('*****  end section 3 ********')
@@ -132,7 +134,7 @@ print()
 print('*****  end section 6 ********')
 print()
 
-'''
+
 
 print()
 print('*****  start section 7 - using pop method ********')
@@ -159,13 +161,15 @@ a = phonebook.popitem() #always pop the last item
 print(a)
 print(phonebook)
 
+#result is: ('Joanne', '555−3333')
+#{'Chris': '555−1111', 'Katie': '555−2222'}
 
 
 print()
 print('*****  end section 8 ********')
 print()
 
-
+'''
 
 print()
 print('*****  start section 9 - using random and converting to list ********')
