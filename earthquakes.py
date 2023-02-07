@@ -41,8 +41,14 @@ infile = open('eq_data.json','r')
 data = json.load(infile)
 
 #1)
+print()
+print()
 
 print("The number of earthquakes:",len(data["features"]))
+
+print()
+print()
+
 
 #2
 eq = []
